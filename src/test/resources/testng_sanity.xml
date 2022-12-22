@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite for CRM Test" >
+
+    <listeners>
+        <listener class-name="com.crm.qa.ExtentreportListener.ExtentReportListerTestNG"/>
+    </listeners>
+
+    <test name="CRM Test Cases" >
+        <classes>
+
+            <class name="com.crm.qa.TestDataExample.ContactsDataDriven" />
+
+        </classes>
+    </test>
+</suite>
+

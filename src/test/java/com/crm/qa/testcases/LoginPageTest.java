@@ -29,8 +29,6 @@ public class LoginPageTest extends TestBase
     @Test(priority = 1)
     public void logInTest()
     {
-        String uName = "raja";
-        String uPwd = "raja";
         homePage = loginPage.logIn(prop.getProperty("username"), prop.getProperty("password"));
 
     }
